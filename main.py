@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/filials')
 def index():
     
-    return jsonify(filials_get)
+    return jsonify(filials_get())
 
 
 
