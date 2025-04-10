@@ -10,7 +10,7 @@ def analytic_get(year,month):
             filial_id = sad['id']
 
             # Формируем URL запроса
-            url = f"https://nickly24-itclub-server-453b.twc1.net/api/analytics/{year}/{month}/{filial_id}"
+            url = f"https://nickly24-itclub-server-38c1.twc1.net/api/analytics/{year}/{month}/{filial_id}"
 
             # Отправляем GET-запрос
             response = requests.get(url,verify=False )

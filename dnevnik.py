@@ -3,7 +3,7 @@ from collections import defaultdict
 
 def dnevnik_get(year, month, group_by_filial=True):
     response = requests.get(
-        f'https://nickly24-itclub-server-453b.twc1.net/api//dnevnik/{year}/{month}',
+        f'https://nickly24-itclub-server-38c1.twc1.net/api/dnevnik/{year}/{month}',
         verify=False  # Отключает проверку SSL (небезопасно!)
     )
     

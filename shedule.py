@@ -1,6 +1,6 @@
 import requests
 def shedule_get():
-    shedule = requests.get('https://nickly24-itclub-server-453b.twc1.net/api/schedules')
+    shedule = requests.get('nickly24-itclub-server-38c1.twc1.net/api/schedules')
 
     shedule_format = ""
     days_of_week = ['Понедельник', 'Вторник','Среда','Четверг','Пятница','Суббота']
